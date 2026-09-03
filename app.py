@@ -41,8 +41,6 @@ with c3:
     time_mark = st.checkbox("Marcação de tempo")
 
 if uploaded_file is not None:
-
-
     result = transcript(model, uploaded_file)
 
     if time_mark:
